@@ -8,7 +8,7 @@
 | portal-server |  后端项目  |
 |  portal.sql   | 数据库脚本 |
 
-## 安装
+## 项目安装
 
 ### 代码快速获取
 
@@ -38,6 +38,12 @@
 	npm install
 	npm run serve
 	```
+
+## 网页访问
+
+网页本地访问：http://localhost:8087
+
+接口文档访问：http://localhost:8087/doc.html
 
 ## 项目描述
 
