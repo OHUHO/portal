@@ -132,7 +132,7 @@ export default {
 			this.getRequest("/findAllSlideshow").then(resp =>{
 				if (resp){
 					this.slideshow = resp.data.data
-					console.log(this.slideshow)
+					//console.log(this.slideshow)
 				}
 			})
 		}
