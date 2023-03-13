@@ -9,7 +9,7 @@
 					<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
 					<div class="item">
 						<strong>15284734573</strong>
-						<span>周一 ~ 周日, 8:00 - 23:00</span>
+						<span>周一 ~ 周五, 8:30 - 17:30</span>
 					</div>
 				</div>
 				<div class="header-item">
