@@ -1,0 +1,212 @@
+.solution-page {
+    background: url(../images/product/bg.jpg);
+    color: #fff;
+    padding: 110px 0 160px;
+}
+
+.solution-page .container {
+    padding: 0 100px
+}
+
+.solution-page .container h2 {
+    font-size: 46px
+}
+
+.solution-page .container p {
+    font-size: 16px
+}
+
+@media screen and (max-width: 640px) {
+    .solution-page {
+        padding: 55px 0 60px
+    }
+
+    .solution-page .container {
+        padding: 0 15px
+    }
+
+    .solution-page .container h2 {
+        font-size: 28px
+    }
+
+    .solution-page .container p {
+        font-size: 14px
+    }
+}
+
+.solution-container {
+    margin-top: 50px
+}
+
+.solution-container .am-tabs {
+    margin: 0 auto;
+    width: 1000px
+}
+
+.solution-container .am-tabs .am-tabs-nav {
+    width: 500px;
+    margin: 20px auto
+}
+
+.solution-container .am-tabs .am-tabs-nav li {
+    padding: 9px 0
+}
+
+.solution-container .am-tabs .am-tabs-nav li a {
+    color: #262626
+}
+
+.solution-container .am-tabs .am-tabs-nav li.am-active {
+    background: #34c1e4;
+    padding: 9px 0;
+    border-radius: 4px
+}
+
+.solution-container .am-tabs .am-tabs-nav li.am-active a {
+    color: #fff
+}
+
+.solution-container .am-tabs .am-tabs-bd {
+    border: 0
+}
+
+.solution-container .am-tabs .am-tabs-bd div[class^=am-tab-pane] {
+    padding: 0;
+    margin: 30px 0
+}
+
+.solution-container .am-tabs .am-tabs-bd .am-g div {
+    margin: 15px 0
+}
+
+.solution-container .am-tabs .am-tabs-bd .am-g div a {
+    display: block
+}
+
+.solution-container .am-tabs .am-tabs-bd .am-g div a img {
+    width: 100%
+}
+
+@media screen and (max-width: 640px) {
+    .solution-container .am-tabs {
+        width: 100%
+    }
+
+    .solution-container .am-tabs .am-tabs-nav {
+        width: 100%;
+        padding: 0 15px
+    }
+
+    .solution-container .am-tabs .am-tabs-nav li a {
+        font-size: 14px
+    }
+
+    .solution-container .am-tabs .am-tabs-bd div[class^=am-tab-pane] {
+        margin: 15px 0
+    }
+}
+
+.o2o-container .am-g {
+    margin: 0 auto;
+    width: 953px
+}
+
+.cooperation-container, .o2o-container .am-g .am-u-md-4 {
+    margin-top: 50px
+}
+
+.o2o-container .am-g .am-u-md-4 .o2o-box {
+    background: #fff !important;
+    color: #262626
+}
+
+.o2o-container .am-g .am-u-md-4 .o2o-box img {
+    width: 100%
+}
+
+.o2o-container .am-g .am-u-md-4 .o2o-box .o2o-content {
+    padding: 35px 28px 34px
+}
+
+.o2o-container .am-g .am-u-md-4 .o2o-box .o2o-content h3 {
+    font-size: 18px
+}
+
+.o2o-container .am-g .am-u-md-4 .o2o-box .o2o-content p {
+    font-size: 14px
+}
+
+@media screen and (max-width: 640px) {
+    .o2o-container .am-g {
+        width: 100%
+    }
+
+    .o2o-container .am-g .o2o-content {
+        padding: 0
+    }
+}
+
+.cooperation-container .am-tabs {
+    margin: 0 auto;
+    width: 1000px
+}
+
+.cooperation-container .am-tabs .am-tabs-nav {
+    width: 500px;
+    margin: 0 auto
+}
+
+.cooperation-container .am-tabs .am-tabs-nav li {
+    padding: 9px 0
+}
+
+.cooperation-container .am-tabs .am-tabs-nav li a {
+    color: #262626
+}
+
+.cooperation-container .am-tabs .am-tabs-nav li.am-active {
+    background: #34c1e4;
+    padding: 9px 0;
+    border-radius: 4px
+}
+
+.cooperation-container .am-tabs .am-tabs-nav li.am-active a {
+    color: #fff
+}
+
+.cooperation-container .am-tabs .am-tabs-bd {
+    border: 0
+}
+
+.cooperation-container .am-tabs .am-tabs-bd div[class^=am-tab-pane] {
+    padding: 0;
+    margin: 30px 0
+}
+
+.cooperation-container .am-tabs .am-tabs-bd .am-thumbnails li {
+    border-right: 1px dashed #e9e9e9;
+    border-bottom: 1px dashed #e9e9e9
+}
+
+.cooperation-container .am-tabs .am-tabs-bd .am-thumbnails li a {
+    width: 180px;
+    height: 89px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+.cooperation-container .am-tabs .am-tabs-bd .am-thumbnails li a img {
+    border: 0;
+    margin: 10px auto
+}
+
+@media screen and (max-width: 640px) {
+    .cooperation-container .am-tabs {
+        width: 100%
+    }
+
+    .cooperation-container .am-tabs-nav {
+        width: 100% !important
+    }
+}

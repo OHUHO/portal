@@ -1,0 +1,332 @@
+.blog {
+    margin-top: 50px;
+}
+
+.blog .article {
+    margin: 0 0 100px
+}
+
+.blog .article .article-img {
+    overflow: hidden;
+    border-radius: 3px;
+    margin: 0 0 26px;
+}
+
+.blog .article .article-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.blog .article .article-header {
+    verflow: hidden;
+    border-radius: 3px;
+    margin: 0 0 13px
+}
+
+.blog .article .article-header h2 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.blog .article .article-header h2 a {
+    color: #262626
+}
+
+.blog .article .article-header .article--meta {
+    padding: 0
+}
+
+.blog .article .article-header .article--meta_item {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    color: #969696;
+    margin: 0;
+}
+
+.blog .article .article--content {
+    font-size: 16px;
+    line-height: 23px;
+    color: #969696;
+    height: 70px;
+
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.blog .article .article--content p {
+    font-size: 14px
+}
+
+.blog .article .article--footer .link {
+    font-size: 16px;
+    color: #59bcdb
+}
+
+.blog .article .article--footer .link:after {
+    content: "\f178";
+    color: #59bcdb;
+    margin-left: 8px
+}
+
+.blog .am-pagination {
+    margin: 0 auto;
+    width: 365px
+}
+
+@media screen and (max-width: 640px) {
+    .blog .article {
+        margin: 0 0 50px !important
+    }
+}
+
+.news-section .container {
+    overflow: auto
+}
+
+.news-section .container .article {
+    padding: 0 35px 50px 0;
+    border-bottom: 1px solid #e9e9e9
+}
+
+.news-section .container .article .article--title a {
+    color: #262626;
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 300
+}
+
+.news-section .container .article .article--meta {
+    padding: 14px 0 0
+}
+
+.news-section .container .article .article--meta .article--meta_item {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    color: #969696;
+    margin: 10px 20px 0 0
+}
+
+.news-section .container .article .article--meta .article--meta_item i {
+    color: #59bcdb;
+    margin-right: 5px
+}
+
+.news-section .container .article .article--content {
+    margin: 23px 0 0;
+    font-size: 16px;
+    line-height: 23px;
+    color: #969696
+}
+
+.news-section .container .article .article--content img {
+    width: 100%
+}
+
+.news-section .container .article .split-line {
+    margin: 50px
+}
+
+.news-section .container .comments {
+    margin: 0 35px 0 0;
+    padding: 36px 0 0;
+    position: relative
+}
+
+.news-section .container .comments .comments--title {
+    font-size: 20px;
+    padding: 0 0 21px
+}
+
+.news-section .container .comments .comment {
+    position: relative;
+    padding: 0 0 0 80px;
+    list-style: none
+}
+
+.news-section .container .comments .comment .comment--userpic {
+    position: absolute;
+    left: -13px;
+    top: -8px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px
+}
+
+.news-section .container .comments .comment .comment--username a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 0 6px;
+    color: #262626
+}
+
+.news-section .container .comments .comment .comment--date {
+    font-size: 14px;
+    color: #969696
+}
+
+.news-section .container .comments .comment--content {
+    margin: 10px 0 46px;
+    padding: 18px 20px;
+    position: relative;
+    background: #f5f5f5;
+    color: #969696;
+    font-size: 14px;
+    line-height: 23px;
+    border-radius: 3px
+}
+
+.news-section .container .comments .comment--reply:before {
+    content: "\f064";
+    margin-right: 5px
+}
+
+.comment_form textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 2px solid #e9e9e9;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    vertical-align: top;
+    color: #262626
+}
+
+.comment_form input {
+    width: 100% !important;
+    background: #fcfcfc !important;
+    border: 2px solid #e9e9e9 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding: 15px 20px !important;
+    border-radius: 3px !important;
+    color: #262626 !important;
+    margin-bottom: 20px
+}
+
+.comment_form .am-u-md-4 {
+    padding-left: 0
+}
+
+.comment_form .am-u-md-4:nth-of-type(3) {
+    padding-right: 0
+}
+
+.comment_form .comment-form-footer {
+    text-align: right;
+    margin-top: 20px
+}
+
+.comment_form .comment-form-footer .am-btn-secondary {
+    background-color: transparent;
+    color: #34c1e4;
+    border-color: #34c1e4;
+    border-width: 2px;
+    border-radius: 4px
+}
+
+.comment_form .comment-form-footer .am-btn-secondary:hover {
+    background: #34c1e4;
+    color: #fff
+}
+
+.blog_sidebar .widget {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 30px
+}
+
+.blog_sidebar .widget:first-child {
+    margin-top: 20px
+}
+
+.blog_sidebar .widget .widget--title {
+    background: #fafafa;
+    position: relative;
+    font-size: 18px;
+    padding: 20px 10px 20px 24px;
+    margin: 0;
+    font-weight: 400
+}
+
+.blog_sidebar .widget .widget--title i {
+    margin-right: 5px;
+    color: #59bcdb
+}
+
+.blog_sidebar .widget ul {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 !important
+}
+
+.blog_sidebar .widget ul li {
+    border-top: 1px solid #e5e5e5;
+    padding: 17px 20px;
+    color: #9b9b9b;
+    list-style: none
+}
+
+.blog_sidebar .widget ul li a {
+    color: #9b9b9b !important;
+    padding: 5px 0
+}
+
+.blog_sidebar .widget ul li .rss-date {
+    display: block;
+    color: #262626;
+    padding: 4px 0 2px;
+    font-size: 15px
+}
+
+@media (max-width: 769px) {
+    .comment--content {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 10px 0 30px
+    }
+
+    .news-section .container .article {
+        padding: 0 0 50px
+    }
+
+    .news-section .container .article .article--title a {
+        font-size: 26px;
+        line-height: 50px
+    }
+
+    .news-section .container .article .article--content {
+        font-size: 14px
+    }
+
+    .comment--userpic {
+        position: relative !important
+    }
+
+    .news-section .container .comments {
+        margin: 0
+    }
+
+    .news-section .container .comments .comment {
+        padding: 0
+    }
+}
+
+
+/*===================================*/

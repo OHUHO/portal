@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.record.mapper.SlideshowMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.record.entity.Slideshow">
+        <id column="slideshow_id" property="slideshowId" />
+        <result column="image_url" property="imageUrl" />
+        <result column="introduction" property="introduction" />
+        <result column="create_time" property="createTime" />
+        <result column="is_delete" property="isDelete" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        slideshow_id, image_url, introduction, create_time, is_delete
+    </sql>
+
+</mapper>

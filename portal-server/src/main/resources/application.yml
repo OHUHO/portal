@@ -1,0 +1,85 @@
+
+server:
+    port: 8888
+
+spring:
+    # MySQL
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/als?useUnicode=true&useSSL=true&characterEncoding=utf8
+        username: root
+        password: jc951753
+        druid:
+            initial-size: 1
+            min-idle: 1
+            max-active: 20
+            test-on-borrow: true
+
+            aop-patterns: com.record.*  #监控SpringBean
+            filters: stat,wall     # 底层开启功能，stat（sql监控），wall（防火墙）
+
+            stat-view-servlet: # 配置监控页功能
+                enabled: true
+                login-username: admin
+                login-password: 123456
+                resetEnable: false
+
+            web-stat-filter: # 监控web
+                enabled: true
+                urlPattern: /*
+                exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+            filter:
+                stat: # 对上面filters里面的stat的详细配置
+                    slow-sql-millis: 1000
+                    logSlowSql: true
+                    enabled: true
+                wall:
+                    enabled: true
+                    config:
+                        drop-table-allow: false
+
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 100MB
+    mvc:
+        path match:
+            matching-strategy: ant_path_matcher
+#        static-path-pattern: /static/**
+
+#    thymeleaf:
+#        prefix: classpath:/templates/
+#        encoding: UTF-8
+#        cache: false
+#        suffix: .html
+#        servlet:
+#            content-type: text/html
+    jdbc:
+      template:
+          query-timeout: 3
+#    web:
+#        resources:
+#            static-locations: classpath:/static/
+
+    devtools:
+        livereload:
+            port: 35730
+
+
+# MyBatis-Plus
+mybatis-plus:
+    configuration:
+        # 配置日志
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    global-config:
+        db-config:
+            # 表默认前缀
+            table-prefix: h_
+            # 统一的主键生成策略
+            id-type: auto
+    # 配置数据返回类型别名
+    type-aliases-package: com.record.entity
+    # 配置映射文件
+    mapper-locations: classpath:mapper/*.xml
