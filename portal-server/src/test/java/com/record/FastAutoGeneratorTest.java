@@ -9,11 +9,11 @@ import java.util.Collections;
 
 public class FastAutoGeneratorTest {
     public static void main(String[] args) {
-        FastAutoGenerator.create("jdbc:mysql://localhost:3306/als?characterEncoding=utf-8&userSSL=false", "root", "jc951753")
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/portal?characterEncoding=utf-8&userSSL=false", "root", "123456")
                 .globalConfig(builder -> {
                     builder.author("京茶吉鹿") // 设置作者
                             .enableSwagger() // 开启 swagger 模式
-                            .outputDir("E://mybatis_plus//als")  // 指定输出目录
+                            .outputDir("E://mybatis_plus//portal")  // 指定输出目录
                             .commentDate("yyyy-MM-dd"); // 注释日期
 
                 })
@@ -24,7 +24,7 @@ public class FastAutoGeneratorTest {
                             .mapper("mapper")
                             .xml("mapper.xml")
                             .controller("controller")
-                            .pathInfo(Collections.singletonMap(OutputFile.xml, "E://mybatis_plus//als"));// 设置mapperXml生成路径
+                            .pathInfo(Collections.singletonMap(OutputFile.xml, "E://mybatis_plus//portal"));// 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
                     builder //##########################设置需要生成的表名#########################
