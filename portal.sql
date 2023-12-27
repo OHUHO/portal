@@ -14,6 +14,12 @@
  Date: 13/03/2023 13:10:43
 */
 
+-- ----------------------------
+-- create database for portal
+-- ----------------------------
+CREATE DATABASE IF NOT EXISTS portal;
+USE portal;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
