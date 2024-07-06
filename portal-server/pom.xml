@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.record</groupId>
-	<artifactId>city-a0</artifactId>
+	<artifactId>portal-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>city-a0</name>
 	<description>成都家用电梯成都别墅电梯</description>
