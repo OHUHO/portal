@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.record.mapper.ExampleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.record.entity.Example">
+        <id column="example_id" property="exampleId" />
+        <result column="name" property="name" />
+        <result column="example_type" property="exampleType" />
+        <result column="image1" property="image1" />
+        <result column="image2" property="image2" />
+        <result column="image3" property="image3" />
+        <result column="image4" property="image4" />
+        <result column="image5" property="image5" />
+        <result column="image6" property="image6" />
+        <result column="image7" property="image7" />
+        <result column="image8" property="image8" />
+        <result column="image9" property="image9" />
+        <result column="image10" property="image10" />
+        <result column="image11" property="image11" />
+        <result column="image12" property="image12" />
+        <result column="image13" property="image13" />
+        <result column="image14" property="image14" />
+        <result column="image15" property="image15" />
+        <result column="image16" property="image16" />
+        <result column="content" property="content" />
+        <result column="content_html" property="contentHtml" />
+        <result column="create_time" property="createTime" />
+        <result column="is_delete" property="isDelete" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        example_id, name, image1,image2,image3,image4,image5,image6,image7,image8,image9,image10,image11,image12,image13,image14,image15,image16, content, content_html, create_time, is_delete
+    </sql>
+
+</mapper>

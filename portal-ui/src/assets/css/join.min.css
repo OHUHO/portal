@@ -1,0 +1,64 @@
+.join-container {
+    margin-top: 50px
+}
+
+.join-container .careers--articles .careers--subtitle {
+    font-size: 24px
+}
+
+.join-container .careers--articles .careers_article {
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #e9e9e9;
+    margin-top: 14px;
+}
+.join-container .careers--articles .careers_article:first-child {
+    margin-top: 0;
+}
+.join-container .careers--articles .careers_article .careers_article--title {
+    font-size: 20px;
+    margin: 14px 0;
+}
+
+.join-container .careers--articles .careers_article .careers_article--text {
+    font-size: 14px;
+    line-height: 23px;
+    color: #969696;
+    margin-bottom: 10px;
+}
+
+.join-container .careers--articles .careers_article .careers_article--footer .link:after {
+    content: "\f178";
+    margin-left: 4px
+}
+
+.join-container .careers--subtitle {
+    font-size: 24px
+}
+
+.join-container .careers--vacancies .am-panel-title {
+    color: #34c1e4;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 13px 15px;
+    position: relative
+}
+
+.join-container .careers--vacancies .am-panel-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 36px;
+    background: #34c1e4;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.join-container .careers--vacancies .am-panel-title:nth-of-type(2):before {
+    background: #ffbf57
+}
